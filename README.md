@@ -30,3 +30,10 @@ Instalar Unity version
 ### IBM Cloud
 Seguir documentación
 > https://github.com/IBM-Cloud/get-started-python
+
+## Instalación
+Clonar repositorio desde GIT Bash
+```
+git clone https://github.com/adriabellak/Reto-Movilidad-Urbana.git
+
+```
