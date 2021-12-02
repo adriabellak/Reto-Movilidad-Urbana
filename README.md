@@ -2,6 +2,8 @@
 
 ## Pre Requisitos:
 ### Mesa
+**Lo siguiente es para crear un ambiente virutal, en caso de querer intalar mesa en tu propio computadora ve salta lo siguiente y solo instala mesa**
+
 Descargar Miniconda
 > https://docs.conda.io/en/latest/miniconda.html
 
@@ -11,7 +13,7 @@ conda create --nombreambiente
 conda activate nombreambiente
 ```
 
-Instalar mesa
+**Instalación de mesa**
 ```
 pip intall mesa
 ```
@@ -31,9 +33,33 @@ Instalar Unity version
 Seguir documentación
 > https://github.com/IBM-Cloud/get-started-python
 
+
 ## Instalación
 Clonar repositorio desde GIT Bash
 ```
 git clone https://github.com/adriabellak/Reto-Movilidad-Urbana.git
 
 ```
+
+**Si estas utilizando un ambiente virtual**, verifica que estes dentro del ambiente virtual de conda
+> Python 3.8.12 64-bits ('nombreambiente': conda)
+
+Dentro de los archivos del repositorio ve a:
+> /Unity/Traffic
+Abre una terminal desde ahí, **si estas usando un ambiente virtual debaría aparecerte lo siguiente** en caso de que no activa tu ambiente virtual
+```
+conda activate nombreambiente
+```
+
+Corre el siguiente archivo desde la terminal, esto va a abrir el puerto 8586 para poder correr la simulación
+```
+python unity.py
+```
+Abre el proyecto de unity y ponle play a la simulación
+
+
+
+
+
+
+
