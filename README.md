@@ -50,6 +50,7 @@ git clone https://github.com/adriabellak/Reto-Movilidad-Urbana.git
 
 Dentro de los archivos del repositorio ve a:
 > /Unity/Traffic
+
 Abre una terminal desde ahí, **si estas usando un ambiente virtual debaría aparecerte lo siguiente** en caso de que no activa tu ambiente virtual
 ```
 conda activate nombreambiente
