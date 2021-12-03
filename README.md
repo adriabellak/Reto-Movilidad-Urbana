@@ -17,6 +17,10 @@ conda activate nombreambiente
 ```
 pip intall mesa
 ```
+**Instalación de Flask**
+```
+pip intall Flask
+```
 
 Verifica que estas dentro del ambiente
 > Python 3.8.12 64-bits ('nombreambiente': conda)
@@ -46,6 +50,7 @@ git clone https://github.com/adriabellak/Reto-Movilidad-Urbana.git
 
 Dentro de los archivos del repositorio ve a:
 > /Unity/Traffic
+
 Abre una terminal desde ahí, **si estas usando un ambiente virtual debaría aparecerte lo siguiente** en caso de que no activa tu ambiente virtual
 ```
 conda activate nombreambiente
