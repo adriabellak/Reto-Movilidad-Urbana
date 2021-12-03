@@ -17,6 +17,10 @@ conda activate nombreambiente
 ```
 pip intall mesa
 ```
+**Instalación de Flask**
+```
+pip intall Flask
+```
 
 Verifica que estas dentro del ambiente
 > Python 3.8.12 64-bits ('nombreambiente': conda)
